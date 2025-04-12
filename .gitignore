@@ -1,0 +1,11 @@
+.*
+!.gitignore
+.*/
+_*
+
+Lib/
+Inlude/
+Scripts/
+pyvenv.cfg
+
+*.log
