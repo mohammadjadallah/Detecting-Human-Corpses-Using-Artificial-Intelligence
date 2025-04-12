@@ -34,7 +34,7 @@ Dependencies:
 - typing_extensions==4.13.2
 - urllib3==2.4.0
 
-Maintainer: Ahmad Deeb (ahmaddeebdev@gmail.com)
+Maintainer: Nabegh Sayegh (Na-sayegh@hotmail.com)
 Status: Development
 """
 """
@@ -57,7 +57,7 @@ from core import *
 import logging
 
 # Base URL for the documentation website
-base_url = "https://leaks.zamanalwsl.net/tortures.php"
+base_url = "https://safmcd.com/martyr/index.php?id=2"
 
 '''
 https://safmcd.com/martyr/category.php
@@ -119,7 +119,7 @@ if __name__ == "__main__":
     logging.info("Starting image scraping process")
     
     # Iterate through 54 pages of content
-    for i in range(20, 55):
+    for i in range(2, 55):
         try:
             # Construct paginated URL
             url = f'{base_url}?id=&start={i}'
